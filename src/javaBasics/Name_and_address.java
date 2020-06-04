@@ -1,6 +1,7 @@
 package javaBasics;
 
 public class Name_and_address { // this is another way which is alternative of Camel case
+
 	public static void main(String[] args) {
 		System.out.println("Mohammad Sharkar");
 		System.out.print("625w 57th st"); // print vs println
@@ -20,6 +21,7 @@ public class Name_and_address { // this is another way which is alternative of C
 		System.out.println("\"Tofael\"");
 		System.out.println("\'Tofael\'");
 		System.out.println("Tofael");
-	
+
 	}
+
 }
