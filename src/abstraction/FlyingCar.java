@@ -6,6 +6,7 @@ public abstract class FlyingCar {
 		System.out.println("Flying feature of Flying Car");
 	}
 	
-	public abstract void autoPilot(); //we must have to put abstract keyword inside abstract method in abstract class
+	public abstract void autoPilot(); //method declared
+	//we must have to put abstract keyword inside abstract method in abstract class
 
 }

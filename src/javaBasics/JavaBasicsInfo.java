@@ -34,7 +34,8 @@ Class: in package (right click), New -- Class -- give name in Upper case -- sele
 -- Entry point for Java
 
 9) What is access modifier?
--- public, protected, private
+-- public, protected, private, default
+https://www.javatpoint.com/access-modifiers#:~:text=The%20access%20modifiers%20in%20Java,types%20of%20Java%20access%20modifiers%3A&text=It%20cannot%20be%20accessed%20from%20outside%20the%20class.
 
 10) how to print sysout by shortcut.
 
