@@ -1,4 +1,4 @@
-package abstraction;
+package OOP_abstraction;
 
 public interface Car { // interface name is always in upper case
 	// all these methods which are declared also called abstract method

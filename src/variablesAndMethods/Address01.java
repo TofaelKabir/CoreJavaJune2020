@@ -1,4 +1,4 @@
-package variiableAndMethods;
+package variablesAndMethods;
 
 //printing address without calling any variable
 public class Address01 {

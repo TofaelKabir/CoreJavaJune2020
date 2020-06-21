@@ -1,4 +1,4 @@
-package variiableAndMethods;
+package variablesAndMethods;
 
 public class NameAndAddress06 { //Opening of Class body
 

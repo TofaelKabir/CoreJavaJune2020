@@ -1,4 +1,4 @@
-package inheritance;
+package OOP_inheritance;
 
 public class Grandfather {
 	
@@ -16,7 +16,7 @@ public class Grandfather {
 	// 3 -- > method
 	// Method can't be declared in a class, rather implemented
 	public void grandfatherInfo() { //method implemented
-		System.out.println(Name + ", " + age);
+		System.out.println("Grandfather: Ismail");
 	}
 
 }

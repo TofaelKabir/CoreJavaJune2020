@@ -1,4 +1,4 @@
-package abstraction;
+package OOP_abstraction;
 
 public interface Taxi {
 	public void rent();

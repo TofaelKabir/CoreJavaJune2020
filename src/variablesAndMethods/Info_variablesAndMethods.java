@@ -1,4 +1,4 @@
-package variiableAndMethods;
+package variablesAndMethods;
 /*
  
 1) What is a class in Java? (will discuss later)
@@ -68,7 +68,7 @@ double = decimal 15 to 16 [example: 3.1415927410125732]  [mostly used]
 
  * */
 
-public class Info {
+public class Info_variablesAndMethods {
 
 	public static void main(String[] args) {
 		System.out.println("\"Info regarding Variabl and Method\"");

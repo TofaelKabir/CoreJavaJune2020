@@ -1,4 +1,4 @@
-package variiableAndMethods;
+package variablesAndMethods;
 
 public class TestNewAddress {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package abstraction;
+package OOP_abstraction;
 
 public abstract class FlyingCar {
 	

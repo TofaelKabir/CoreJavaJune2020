@@ -78,7 +78,7 @@ right click on Class, select refactor, the rename, change it accordingly
 
 */
 
-public class Info { // beginning of the class
+public class Info_javaBasics { // beginning of the class
 	public static void main(String[] args) {  // Main method is the entry point of Java
 		System.out.println("This is my plan for today");
 		System.out.println("I am writitng a second print here");
