@@ -11,8 +11,7 @@ public class Address {
 	public boolean InUSA = true;
 
 	public void myInfo() {
-		System.out
-				.println(Name + "\n" + houseNumber + houseDirection + " " + stNumber + "st \n" + state + " " + zipCode);
+		System.out.println(Name + "\n" + houseNumber + houseDirection + " " + stNumber + "st \n" + state + " " + zipCode);
 		System.out.println("Is the location in USA? Ans: " + InUSA);
 	}
 	// Address is a Class
