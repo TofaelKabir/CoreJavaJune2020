@@ -13,8 +13,8 @@ public class Name_and_address { // this is another way which is alternative of C
 		System.out.println("\nMy name is John, \tI am a CA, \tLive in TX");
 		// use of \r, carriage return
 		System.out.println("Mohammad Sharkar, 3476537214");
-		System.out.println("\rMohammad Sharkar, 3476537214");
-		System.out.println("\nMohammad Sharkar, 3476537214");
+		System.out.println("\rMohammad Sharkar, \r3476537214");
+		System.out.println("\n\rMohammad Sharkar, \r3476537214");
 		// TODO I have to dig down \r
 		// String concatenation
 		System.out.println("Mohammad" + " Sharkar" + ", 45");

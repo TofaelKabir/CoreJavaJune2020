@@ -50,7 +50,7 @@ https://www.javatpoint.com/access-modifiers#:~:text=The%20access%20modifiers%20i
 
 15) print vs println
 -- println -- do the print line by line
---print -- not print linr by line, connected with the next print 
+--print -- not print line by line, connected with the next print 
 
 16) Use of \n (next line) , \r (carriage return), \t (tab)
 
@@ -75,13 +75,10 @@ right click on Class, select refactor, the rename, change it accordingly
 24) how to see the font bigger?
 -- Command/control +
 
-25) HW: 
-(1) Create a Project "CoreJavaJune2020", package "javaBasics", Class "HelloWorld" and implement what you learn from today. Follow what ever I do exactly without copy paste. Type as much as possible.
-(2) (i) Create a Project "Practice<YourName>", package "javaBasics<YourName>", Class "HelloWorld" and implement what you learn from today for practice. 
-	(ii) Create a Class "My_info" and print your name and address. implement as much as possible form your study.
+
 */
 
-public class JavaBasicsInfo { // beginning of the class
+public class Info { // beginning of the class
 	public static void main(String[] args) {  // Main method is the entry point of Java
 		System.out.println("This is my plan for today");
 		System.out.println("I am writitng a second print here");

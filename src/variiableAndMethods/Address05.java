@@ -6,7 +6,7 @@ public class Address05 { //Opening of Class body
 	// so we remove static key word from variables
 	
 	public static void main(String[] args) {
-		String Name = "Tofael"; //static variable can't stay under static method
+		String Name = "Tofael"; //static variable can't stay under static method, also access modifier is gone
 		int age = 44;  
 		char sex = 'M';  
 		double grade = 3.876;  

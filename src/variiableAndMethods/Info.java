@@ -57,8 +57,8 @@ short = –32,768 to 32,767
 int (integer) = –2,147,483,648 to 2,147,483, 647     [mostly used]
 long = –9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
 
-double = decimal 6 to 7 [example: 3.1415927]   
-float = decimal 15 to 16 [example: 3.1415927410125732]  [mostly used]
+float = decimal 6 to 7 [example: 3.1415927]   
+double = decimal 15 to 16 [example: 3.1415927410125732]  [mostly used]
 
 9) What is the difference between float and double in details?
  -- Though both float and double data type are used to represent floating point numbers in Java, a double data type is more precise than float. A double variable can provide precision up to 15 to 16 decimal points as compared to float precision of 6 to 7 decimal digits. Another significant difference between float and double is their storage requirement, double is more expensive than float. It takes 8 bytes to store a variable while float just takes 4 bytes. Which means, if memory is constraint than its better to use float than double. BTW, the double type also has larger range than float and if your numbers don't fit well in float then you have to use double in Java.
@@ -68,7 +68,7 @@ float = decimal 15 to 16 [example: 3.1415927410125732]  [mostly used]
 
  * */
 
-public class VariablAndMethodInfo {
+public class Info {
 
 	public static void main(String[] args) {
 		System.out.println("\"Info regarding Variabl and Method\"");
