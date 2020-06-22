@@ -1,4 +1,4 @@
-package OOP_abstraction;
+package oop_abstraction;
 
 public class Mercedes {
 	public void mercedezInfo() {

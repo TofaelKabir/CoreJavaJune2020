@@ -1,6 +1,6 @@
-package OOP_inheritance;
+package oop_inheritance;
 
-public class Sister {
+public class MySister extends MyFather {
 	public void sisterInfo() {
 		System.out.println("Sister: Nasima");
 	}

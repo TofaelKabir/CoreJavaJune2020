@@ -1,4 +1,4 @@
-package OOP_inheritance;
+package oop_inheritance;
 
 
 /* 
@@ -16,16 +16,18 @@ package OOP_inheritance;
 
 
 7. Write down the OOP features.
-
 -- Abstraction, Inheritance, Encapsulation and Polymorphism are the features of java OOP.
 
 8) What is Inheritance and what are the types of Inheritance?
 
 Ans: Inheritance is a mechanism where a new class inherit the properties and methods of other classes. 
 
+
 Child class: A class derived from another class is called a Child class or Sub class
 
-Parents class: The class from which a subclass is derived is called a parent class or base class or superclass. 
+
+Parents class: The class from which a subclass/child class is derived is called a parent class or base class or superclass. 
+
 
 Followings are the type of inheritance ------ >
 

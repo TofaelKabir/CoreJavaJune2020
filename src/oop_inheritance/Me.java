@@ -1,4 +1,4 @@
-package OOP_inheritance;
+package oop_inheritance;
 
 public class Me {
 	public void myInfo() {

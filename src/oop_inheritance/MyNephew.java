@@ -1,6 +1,6 @@
-package OOP_inheritance;
+package oop_inheritance;
 
-public class Nephew {
+public class MyNephew {
 	public void nephewInfo() {
 		System.out.println("Nephew: Niaz");
 	}

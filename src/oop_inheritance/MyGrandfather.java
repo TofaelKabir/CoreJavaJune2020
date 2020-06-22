@@ -1,6 +1,6 @@
-package OOP_inheritance;
+package oop_inheritance;
 
-public class Grandfather {
+public class MyGrandfather {
 	
 	// 1 -- > variable
 	public String Name;  //variable declared
@@ -9,7 +9,7 @@ public class Grandfather {
 	
 	// 2  -- > Constructor
 	//Constructor name is same as Class name
-	public Grandfather() {  //constructor declared
+	public MyGrandfather() {  //constructor declared
 		System.out.println("This constructor is from default constructor of grandfather");
 	}
 	

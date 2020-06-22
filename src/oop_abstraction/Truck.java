@@ -1,4 +1,4 @@
-package OOP_abstraction;
+package oop_abstraction;
 
 public interface Truck {
 	public void carryingGoods();
