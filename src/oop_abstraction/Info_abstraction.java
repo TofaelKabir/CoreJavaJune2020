@@ -26,6 +26,8 @@ package oop_abstraction;
 -- Contains only non abstract method, don't contain abstract method.
 -- Methods only implemented but can't be declared.
 
+-- implements and extends keyword is used for inheritance
+
  * */
 
 public class Info_abstraction {
