@@ -8,4 +8,5 @@ public interface Car extends Taxi, Truck { // interface name is always in upper 
 	public void stop(); // we can write abstract inside the method or not.
 	public void brake();
 	
+	
 }

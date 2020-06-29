@@ -1,10 +1,13 @@
-package javaConstructor;
+package java_constructor;
 
 /*
 
 Variable classification based on position?
 -- global variable or class variable
 -- local variable
+
+What is constructor in java?
+-- A constructor is a special method that is used to initialize a newly created object and is called just after the memory is allocated for the object. 
 
 Constructor Classification?
 -- Default Constructor or no argument constructor

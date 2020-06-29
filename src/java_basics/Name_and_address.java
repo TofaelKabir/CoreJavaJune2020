@@ -1,4 +1,4 @@
-package javaBasics;
+package java_basics;
 
 public class Name_and_address { // this is another way which is alternative of Camel case
 

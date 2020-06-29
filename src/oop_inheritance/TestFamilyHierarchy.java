@@ -1,6 +1,6 @@
 package oop_inheritance;
 
-import variablesAndMethods.NewAddress;
+import java_variables_and_methods.NewAddress;
 
 public class TestFamilyHierarchy {
 

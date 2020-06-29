@@ -1,4 +1,4 @@
-package javaConstructor;
+package java_constructor;
 
 public class TestEmployee {
 

@@ -1,4 +1,4 @@
-package variablesAndMethods;
+package java_variables_and_methods;
 /*
  
 1) What is a class in Java? (will discuss later)

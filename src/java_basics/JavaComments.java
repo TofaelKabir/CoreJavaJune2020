@@ -1,4 +1,4 @@
-package javaBasics;
+package java_basics;
 /*
 Java Comments:
 This is multiple line comments 
