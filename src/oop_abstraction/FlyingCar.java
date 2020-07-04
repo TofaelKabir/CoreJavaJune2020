@@ -1,6 +1,6 @@
 package oop_abstraction;
 
-public abstract class FlyingCar extends ElectricCar implements Truck {
+public abstract class FlyingCar extends ElectricCar implements Rocket, HoverCar {
 	
 	// an abstract class can inherit only one abstract class or
 	// an abstract class can inherit only one regular class
