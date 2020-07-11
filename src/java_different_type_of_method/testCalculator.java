@@ -35,6 +35,10 @@ public class testCalculator {
 		System.out.println("\n-------------------------------------");
 		Calculator7 calculator7 = new Calculator7();
 		calculator7.empID(2188458, "Mohammad", "Sharkar", 'M', false);
+		
+		System.out.println("\n-------------------------------------");
+		Calculator8 calculator8 = new Calculator8();
+		calculator8.empID(678458, "Abu", "Barkar", 'M', true);
 
 	}
 
