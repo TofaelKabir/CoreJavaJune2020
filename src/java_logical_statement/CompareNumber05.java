@@ -11,7 +11,7 @@ public class CompareNumber05 {
 			System.out.println(val1 + " is greater than " + val2);
 		} else if (val1 != val2) { // != not equal to
 			System.out.println(val1+ " is not equal to "+val2);
-		} else if (val1 == val2) { // == equality operator / == logical or operator
+		} else if (val1 == val2) { // == equality operator 
 			System.out.println(val1 + " is equal to " + val2);
 		}
 	}
