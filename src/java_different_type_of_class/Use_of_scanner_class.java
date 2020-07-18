@@ -8,7 +8,9 @@ public class Use_of_scanner_class {
 	public static void main(String[] args) {
 
 		System.out.println("Please enter your full name here: ");
-		Scanner scanner = new Scanner(System.in); // System Class, in is a property --input stream
+		
+		Scanner scanner = new Scanner(System.in); // System Class, in is a property of InputStream
+		//TODO System.in
 		String myName = scanner.nextLine();
 		System.out.println("\nHey ! " + myName + " , now you know how Scanner class works!!");
 		

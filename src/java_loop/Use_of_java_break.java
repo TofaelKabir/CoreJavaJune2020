@@ -11,7 +11,7 @@ public class Use_of_java_break {
 		System.out.println("\n---------- for loop after the break  ----------\n");
 		for (int j = 1; j <= 5; j++) {
 			if (j == 4) {
-				break; // when we use break, then the loop is completed before the condition
+				break; // when we use break, then the loop is completed before the if condition
 			}
 			System.out.println("The values are: " + j);
 		}
@@ -40,7 +40,7 @@ public class Use_of_java_break {
 			k = k + 2;
 		} while (k <= 7);
 		
-		System.out.println("\n---------- do while loop after break ----------\n");
+		System.out.println("\n---------- do while loop after break 01 ----------\n");
 		int l = 1;
 		do {
 			System.out.println("The value is: " + l);
@@ -49,6 +49,16 @@ public class Use_of_java_break {
 				break;
 			}
 		} while (l <= 7);
+		
+		System.out.println("\n---------- do while loop after break 02 ----------\n");
+		int m = 1;
+		do {
+			System.out.println("The value is: " + m);
+			m = m + 2;
+			if (m == 6) {  // condition is absent
+				break;
+			}
+		} while (m <= 7);
 	}
 
 }

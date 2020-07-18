@@ -13,7 +13,7 @@ public class Use_of_java_continue {
 		System.out.println("\n---------- for loop after continue 01  ----------\n");
 		for (int i = 1; i <= 5; i++) {
 			if (i == 3) {
-				continue; // when we use continue, then we avoid that condition and continue the loop
+				continue; // when we use continue, then we skip that condition and continue the loop
 			}
 			System.out.println("The value is: " + i);
 		}
