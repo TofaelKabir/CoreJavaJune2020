@@ -52,7 +52,9 @@ https://www.javatpoint.com/access-modifiers#:~:text=The%20access%20modifiers%20i
 -- println -- do the print line by line
 --print -- not print line by line, connected with the next print 
 
-16) Use of \n (next line) , \r (carriage return), \t (tab)
+16) Use of \n (new line) , \r (carriage return), \t (tab), \b (backspace)
+https://www.tutorialspoint.com/escape-sequences-in-java
+https://www.baeldung.com/java-string-newline#:~:text=In%20Windows%2C%20a%20new%20line,the%20end%20of%20our%20string.
 
 17) Java comments -- single line comment, multiple line comment
 

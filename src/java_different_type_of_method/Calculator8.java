@@ -1,6 +1,6 @@
 package java_different_type_of_method;
 
-//Parameterized method
+//void type Parameterized method
 
 public class Calculator8 {
 
