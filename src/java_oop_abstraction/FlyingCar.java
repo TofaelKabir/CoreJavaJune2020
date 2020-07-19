@@ -1,7 +1,7 @@
 package java_oop_abstraction;
 
 public abstract class FlyingCar extends ElectricCar implements Rocket, HoverCar {
-	
+	// an abstract class can contain variable and can contain parameterized method.
 	// an abstract class can inherit only one abstract class or
 	// an abstract class can inherit only one regular class
 	// an abstract class can't inherit an Interface by extends key word

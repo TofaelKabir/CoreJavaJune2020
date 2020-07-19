@@ -1,4 +1,4 @@
-package java_oop_inheritance;
+package java_oop_inheritance_01;
 
 public class MySister extends MyFather {
 	public void sisterInfo() {

@@ -1,4 +1,4 @@
-package java_inheritance_use_of_super;
+package java_oop_inheritance_use_of_super;
 
 public class Employee {
 	public String EmpName;
