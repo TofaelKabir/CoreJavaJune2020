@@ -37,7 +37,7 @@ public class MountSinai extends Employee {
 	}
 
 	public void mountSinaiInfo() {
-		// super(); //we can't call constructor of super class.
+		//super(); //we can't call constructor of super class INSIDE A METHOD.
 		super.empInfo();
 		super.info("Kabir", 487, 'M', false);
 		super.Location = "Queens";

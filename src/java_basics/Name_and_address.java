@@ -5,8 +5,8 @@ public class Name_and_address { // this is another way which is alternative of C
 	public static void main(String[] args) {
 		System.out.println("Mohammad Sharkar");
 		System.out.print("625w 57th st"); // print vs println
-		System.out.println("NY 10019"); // println print line by line
-		// use of \n, next line
+		System.out.println("NY 10019"); // println --- print line by line
+		// use of \n, new line 
 		System.out.println(
 				"I have a question. \nIn Java, are there clear rules on when to use each of access modifiers, namely the default (package private), public, protected and private, while making class and interface and dealing with inheritance? \nAns: I don't know.");
 		// use of \t, tab

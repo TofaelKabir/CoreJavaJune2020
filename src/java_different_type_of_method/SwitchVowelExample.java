@@ -2,14 +2,20 @@ package java_different_type_of_method;
 
 public class SwitchVowelExample {
 	public static void main(String[] args) {
-		char ch = 'a'; // we initialize our query
+		
+		char ch = 'U'; // we initialize our query
+		
+		
 		switch (ch) {
+		
 		case 'a':
 			System.out.println("Vowel a");
 			break;
+			
 		case 'e':
 			System.out.println("Vowel e");
 			break;
+			
 		case 'i':
 			System.out.println("Vowel i");
 			break;
@@ -34,6 +40,7 @@ public class SwitchVowelExample {
 		case 'U':
 			System.out.println("Vowel U");
 			break;
+			
 		default:
 			System.out.println("Consonant");
 		}

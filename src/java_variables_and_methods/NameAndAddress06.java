@@ -15,7 +15,7 @@ public class NameAndAddress06 { //Opening of Class body
 	// method contain parentheses, class doesn't contain
 	// method name can be similar as class name, but not mandatory, like -- nameAndAddress06
 	// method implemented here, when you see curly brace, it means method implemented
-	public static   void myInfo() { //method implemented
+	public static void myInfo() { //method implemented
 		System.out.println(Name+"\n"+houseNumber+houseDirection+" "+stNumber+"st \n"+state+" "+zipCode);
 		
 	}

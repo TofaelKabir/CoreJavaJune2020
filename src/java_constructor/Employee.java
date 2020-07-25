@@ -69,10 +69,14 @@ public class Employee {
 				"Employee Name: " + EmpName + ", ID: " + empID + ", Sex: " + sex + " and Full Time employee? " + fullTimeEmployee);
 	}
 
-	// method
-	public void employee() {
-		System.out.println("This method is from Employee class");
-
+	// parameterized method
+	public void employee(char sex, String empName, int empID,  boolean fullTimeEmployee) {
+		this.EmpName = empName;
+		this.empID = empID;
+		this.sex = sex;
+		this.fullTimeEmployee = fullTimeEmployee;
+		System.out.println(
+				"Employee Name: " + EmpName + ", ID: " + empID + ", Sex: " + sex + " and Full Time employee? " + fullTimeEmployee);
 	}
 
 }

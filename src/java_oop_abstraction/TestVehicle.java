@@ -4,7 +4,7 @@ public class TestVehicle {
 
 	public static void main(String[] args) {
 		System.out.println("\n---------------------------------------------");
-		Toyota toyota = new Toyota(); // the Totyota class is instantiated here
+		Toyota toyota = new Toyota(); // the Toyota class is instantiated here
 		toyota.totyotaInfo();
 		toyota.flyingFeature();
 		toyota.autoPilot();
@@ -12,9 +12,8 @@ public class TestVehicle {
 		toyota.stop();
 		toyota.brake();
 		toyota.honk();
-		// toyota.gear(); // not possible because this is a static method
+		//toyota.gear(); // not possible because this is a static method
 		// Static method don't need an object to call, A class/Interface directly can call a static method
-		Car.gear();
 		toyota.rent();
 		toyota.carryingpassenger();
 		toyota.carryingGoods();
