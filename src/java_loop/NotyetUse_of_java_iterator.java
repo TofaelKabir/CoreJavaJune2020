@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 
+//You will have to loop to convert the array to a list, since Arrays.asList(value.toCharArray()) will produce a List<char[]>
+
 public class NotyetUse_of_java_iterator {
 
 	public static void main(String[] args) {

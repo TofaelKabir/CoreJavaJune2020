@@ -1,7 +1,5 @@
 package java_loop;
 
-import javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction;
-
 public class Use_of_java_while_loop {
 
 	public static void main(String[] args) {
