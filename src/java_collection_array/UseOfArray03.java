@@ -1,4 +1,4 @@
-package collection_array;
+package java_collection_array;
 
 import java.util.Arrays;
 import java.util.Iterator;
@@ -14,6 +14,7 @@ public class UseOfArray03 {
 		a[1] = 15;
 		a[2] = 50;
 
+		
 		a[5] = 56;
 
 		// print single index value:
@@ -51,11 +52,18 @@ public class UseOfArray03 {
 			k += 1;
 		} while (k < a.length);
 		
+		
+		
 		// We can also update value in array, how?
 		System.out.println("\nBefore update, the value of a[0] is: " + a[0] + "\n");
+		
 		a[0] = 55;
+		a[0] = 75;
+		a[0] = 25;
+		
 		System.out.println("\nAfter update, the value of a[0] is: " + a[0] + "\n");// output:?
 
+		
 		System.out.println("\n----- Increasing the length of an Array by Copying of another array -----");
 		// this is how we can  (see below)
 
@@ -89,16 +97,16 @@ public class UseOfArray03 {
 
 		System.out.println("Single index value for new Array: " + c[0]);// why output is: 55?
 		System.out.println("Single index value for new Array: " + c[11]);// output: ?
-		System.out.println("Single index value for new Array: " + Arrays.toString(c)); // opition+command+down arrow
-																						// -see the magic
-																						// //ctl+alt+downarror
+		System.out.println("Single index value for new Array: " + Arrays.toString(c));
+		
 		Arrays.sort(c); // sorting done, then print by below process //for each loop is mostly used in
-						// industry, solely for Array?
+						// industry, solely for Array? // organized from smaller to bigger
 
 		System.out.println("\n^^^^^^^^^^^^^ Printing all index value of Array c [] ^^^^^^^^^^^^^^^^ ");
 		for (int i = 0; i < c.length; i++) {
 			System.out.println(c[i]);
 		}
+		//to find the highest number
 		System.out.println("\nThe highest number is: " + c[c.length - 1]);
 	}
 }

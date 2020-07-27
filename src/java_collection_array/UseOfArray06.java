@@ -1,4 +1,4 @@
-package collection_array;
+package java_collection_array;
 
 /*
  * Author: Shohag, Organised by: Tofael
