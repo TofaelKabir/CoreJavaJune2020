@@ -13,11 +13,11 @@ public class UseOfArray09 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter some integer value: ");
 
-        for(int j=0; j<a.length;j++) {
+        for(int j=0; j<a.length; j++) {
             a[j] = sc.nextInt();
             System.out.println(a[j]);
         }
-        for(int i=0; i<a.length;i++){ //for printing all of them
+        for(int i=0; i<a.length; i++){ //for printing all of them
             System.out.println(a[i]);
        }
         sc.close();

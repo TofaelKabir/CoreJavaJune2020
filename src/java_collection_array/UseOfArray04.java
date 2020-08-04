@@ -86,15 +86,15 @@ public class UseOfArray04 {
         
 		
 		
-		// A normal java list having four String objects
-        List <String> list = new ArrayList<>();
-        list.add("First");
-        list.add("Second");
-        list.add("Third");
-        list.add("Fourth");
-         
-        // Print the list in console
-        System.out.println(list);
+//		// A normal java list having four String objects
+//        List <String> list = new ArrayList<>();
+//        list.add("First");
+//        list.add("Second");
+//        list.add("Third");
+//        list.add("Fourth");
+//         
+//        // Print the list in console
+//        System.out.println(list);
  
         // An array of String objects
         String[] ay = new String[] { "First", "Second", "Third", "Fourth", "Five" }; //Literal representation of array
