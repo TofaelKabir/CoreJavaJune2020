@@ -10,7 +10,8 @@ public class StudyGroup {
 	public StudyGroup() {
 		System.out.println("defauly constructor");
 	}
-	//creating constructor
+	
+	//creating parameterized constructor
 	public StudyGroup(String fname, int age, String lname){
 		this.fname=fname;
 		this.lname=lname;

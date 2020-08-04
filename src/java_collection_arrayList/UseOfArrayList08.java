@@ -122,6 +122,9 @@ public class UseOfArrayList08 {
 		while (ar7.hasNext()) {
 			System.out.println(ar7.next());
 		}
+		
+		
+		
 		//NEW
 		// use of removeAll() method
 		ar.removeAll(ar5);
@@ -140,7 +143,7 @@ public class UseOfArrayList08 {
 		ar9.add("Tofael");
 		// applying retainAll() below, which will keep the common from the list
 		ar.retainAll(ar9);
-		//ar9.retainAll(ar); //what will happen when we do this? question: need to solve
+		//ar9.retainAll(ar); //what will happen when we do this? question: need to solve, doesn't work
 		System.out.println("\n^^^^^^^^^^^^^ After using retainAll the new Array List ^^^^^^^^^^^^^^^^ ");
 		for (int i = 0; i < ar.size(); i++) {
 			System.out.println(ar.get(i));

@@ -86,6 +86,8 @@ public class UseOfArrayList06 {
 		for (int i = 0; i < ar31.size(); i++) {
 			System.out.println(ar31.get(i));
 		}
+		
+		
 		//NEW
 		// user-defined class obj--see the StudyGroup Class
 		// Creating obj of the StudyGroup Class by parameterized constructor and passing

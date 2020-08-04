@@ -11,7 +11,7 @@ public class UseOfArray01 {
 
 	public static void main(String[] args) {
 		
-		int [] a = new int [6]; // declaring size of the array, Array is fixed size // a is the array name 
+		int [] a = new int [5]; // declaring size of the array, Array is fixed size // a is the array name 
 		                       // [] called container //Array is static (fixed size)
 								// Mixed data type can't be used
 		a[0] = 5;

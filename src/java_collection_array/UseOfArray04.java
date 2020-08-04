@@ -1,8 +1,8 @@
 package java_collection_array;
 
-import java.util.ArrayList;
+
 import java.util.Arrays;
-import java.util.List;
+
 
 /*
  * Author: Shohag, Organised by: Tofael
@@ -11,6 +11,7 @@ import java.util.List;
 public class UseOfArray04 {
 	
 	public static void main(String[] args) {
+		//int[] a = new int [] {15, 34, 59, 5, 28, 12}; //alternate way to write array, literal represntation
 		int[] a = new int[6];
 		a[0] = 15;
 		a[1] = 34;
@@ -27,7 +28,7 @@ public class UseOfArray04 {
 		Arrays.sort(a); // Sorts the specified array of bytes into ascending numerical order.
 		System.out.println("First index value after update: " + a[0]);
 		System.out.println("Last index value after update: " + a[a.length - 1]);
-		System.out.println("\tAfter update, the value of Array is: " + Arrays.toString(a) + "\n");
+		System.out.println("\tAfter sort, the value of Array is: " + Arrays.toString(a) + "\n");
 
 		// Shohag, what is the use of it?
 		Arrays.asList(a); // ---->convert to Integer Array as List //ref means ref variable of the array
@@ -97,7 +98,8 @@ public class UseOfArray04 {
 //        System.out.println(list);
  
         // An array of String objects
-        String[] ay = new String[] { "First", "Second", "Third", "Fourth", "Five" }; //Literal representation of array
+        String[] ay = new String[] { "First", "Second", "Third", "Fourth", "Fifth" }; //Literal representation of array
+        
          
         // Print the array using default toString method - Do not Use it
         
@@ -106,6 +108,8 @@ public class UseOfArray04 {
         // Print the array using Arrays.toString() - "RECOMMENDED for simple arrays"
         System.out.println(Arrays.toString(ay));
  
+        
+        //new
         String[] arr1 = new String[] { "hundred", "hundred One" };
         String[] arr2 = new String[] { "two hundred", "thirty four" };
          

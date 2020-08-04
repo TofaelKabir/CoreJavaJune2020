@@ -38,13 +38,82 @@ search field ----- //input[@tabindex='19' or @id='twotabsearchtextbox']
  
 submit button -- //input[@class='nav-input' and @value='Go']
 
-4) Tag with inner text
+4) Tag with inner text [means actual text]
+
 
 //html tag [text() = 'inner text value' ]
 customer service --- //a[text()='Customer Service']
 best seller --- //a[text()='Best Sellers']
 
-5) Tag with inner text (if multiple is present)
+
+5) Tag with inner text [not actual text, means partial text as well as actual text]
+
+
+
+//html tag [contains(text(), 'partial inner text value') ]
+ 
+ // this one is used most as a text
+  
+ from staples: Products partial text:
+ //span[contains(text(), 'Produc')]
+
+
+6) Tag with attributes and contains
+ 
+
+//html tag [contains(@attribute, 'attribute value') ]
+ 
+ //from staples: Deals
+ 
+ (//span[contains(@class, ' navigation-menu-item__primaryHeaderHeadliner')])[2]
+ 
+  
+  
+7) Normalize space
+//html tag [normalize-space(text())='attribute value']
+
+//from Mount sinai: Find a doctor
+
+(//a[normalize-space(text())='Find a Doctor'])[1]
+
+
+8) Starts with text
+
+//html tag [starts-with(text(), 'attribute value')]
+ 
+//mount sinai --- Book an Appointment now with a Mount Sinai doctor.
+ 
+(//p[starts-with(text(), 'Book')])[1]  
+ 
+9) Starts with attribute
+
+//html tag [starts-with(@attributes, 'attribute value']
+ 
+//mount sinai ---request an appointment 
+(//a[starts-with(@class, 'hidden-xs dropdown')])[6]
+
+
+10) Tag with parents
+//mount sinai ---Our locations
+
+//a[@class='hidden-xs dropdown']//parent::li[@class='active open']
+
+11) Tag with child
+//mount sinai --- Allergy and Immunology
+ //div[@class='menu-content']//child::ul//child::li//child::a[text()='Allergy and Immunology']
+
+12)Tag with following sibling {younger brother}
+
+//mount sinai -- our locations
+
+(//a[@class='hidden-xs dropdown']//following-sibling::a[@class='visible-xs dropdown'])[1]
+
+13) Tag with preceding sibling {elder brother}
+no real example is given
+(//a[@class='hidden-xs dropdown']//preceding-sibling::a[@class='visible-xs dropdown'])[1]
+
+
+14) Tag with inner text (if multiple is present)
 
 (//html tag [text() = 'inner text value' ])[index number]
  from mount sinai webite -- request an appointment --- (//a[@class='hidden-xs dropdown'])[3]

@@ -23,7 +23,7 @@ public class UseOfArray06 {
 		System.out.println("Single index value: " + a[5]);// output: Mohammad
 
 		System.out.println("\nThe length of the array is: " + a.length);
-		System.out.println("\nSingle index value: " + a[a.length-1]); //find the value for (length-1) no.
+		System.out.println("\nlast index value: " + a[a.length-1]); //find the value for (length-1) no.
 
 		// print all index value:
 

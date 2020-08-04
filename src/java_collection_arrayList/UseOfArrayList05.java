@@ -27,7 +27,7 @@ public class UseOfArrayList05 {
 		ar.remove(2);
 
 		System.out.println("The size of the ArrayList is: " + ar.size() + "\n"); // in Array this is length
-
+//new
 		ArrayList ar34 = new ArrayList(20); //what does it mean by 20? we decide the capacity to 20
 		ArrayList ar44 = new ArrayList(ar); //what does it mean by ar? we decide the capacity to the size of ar, 11, as 1 is remove
 		
@@ -40,7 +40,7 @@ public class UseOfArrayList05 {
 		System.out.println("Single index value: " + ar.get(10)); // output: //what will happen if you wanna put 11 after
 																	// remove of 1 index?
 
-		System.out.println("Single index value: " + ar.get(ar.size() - 2)); // output:
+		System.out.println("2nd last index value: " + ar.get(ar.size() - 2)); // output:
 
 		System.out.println("\nThe new Array List: " + ar);
 

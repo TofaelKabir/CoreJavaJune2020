@@ -22,11 +22,11 @@ public class UseOfArrayList04 {
 		ar.add("Imran");
 		ar.add(5.5); 
 		ar.add('M'); // different data type is allowed, here char is used
-		ar.add(5, "Nafasat"); // replacing value: adding in index [5] //NEW
+		ar.add(5, "Nafasat"); // adding value: adding in index [5] //NEW
 		ar.add("Mohammad");// ic is [10]-- then capacity will be increased to [ic*(3/2)+1]=16 [always same
 							// formula]
 
-		ar.remove(2); //NEW  //INDEX NUMBER
+		ar.remove(2); //NEW  //INDEX NUMBER 2 is remove
 
 		System.out.println("The size of the ArrayList is: " + ar.size() + "\n"); // in Array this is length
 

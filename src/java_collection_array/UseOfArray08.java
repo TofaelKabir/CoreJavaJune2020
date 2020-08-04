@@ -10,6 +10,7 @@ public class UseOfArray08 {
 	public static void main(String[] args) { //we will study again
 
         int [] a = new int[5];  
+        
         Scanner sc = new Scanner(System.in);
         
         System.out.println("Please enter some integer value: ");

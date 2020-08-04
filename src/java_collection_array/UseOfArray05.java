@@ -10,7 +10,7 @@ public class UseOfArray05 {
 		String[] a = new String[6]; // Different data type (String, char, int etc) can't be mix in an Array
 		a[0] = "Tofael";
 		a[1] = "A";
-		a[2] = " "; // white space //empty string when "", no space inside
+		a[2] = "  "; // white space //empty string when "", no space inside
 		a[3] = "9";
 
 		a[5] = "Mohammad";
@@ -23,7 +23,7 @@ public class UseOfArray05 {
 		System.out.println("Single index value: " + a[5]);// output: Mohammad
 
 		System.out.println("\nThe length of the array is: " + a.length);
-		System.out.println("\nSingle index value: " + a[a.length - 1]); // find the value for (length-1) no.
+		System.out.println("\nlast index value: " + a[a.length - 1]); // find the value for (length-1) no.
 
 		// print all index value:
 
