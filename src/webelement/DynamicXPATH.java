@@ -69,7 +69,7 @@ best seller --- //a[text()='Best Sellers']
  
   
   
-7) Normalize space
+7) Normalize space -- remove white space
 //html tag [normalize-space(text())='attribute value']
 
 //from Mount sinai: Find a doctor
