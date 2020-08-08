@@ -15,9 +15,10 @@ public class UseOfPriorityQueue {
 		queue.add("MD");
 		queue.add("TX"); 
 		
+		System.out.println(queue);
 		// to remove specific obj/value-->if not mentioned removes peek
 		queue.remove("MA"); // removes 
-		
+		System.out.println(queue);
 		//follow ASCII VALUE FOR PRIORITY
 		
 		// In a priority queue, an element with high priority is served before an element with low priority. In some implementations, if two elements have the same priority, they are served according to the order in which they were enqueued, while in other implementations, ordering of elements with the same priority is undefined.
@@ -32,7 +33,7 @@ public class UseOfPriorityQueue {
 		}
 
 		System.out.println("\n"+queue.poll());
-		System.out.println("after removing two elements:");
+		System.out.println("after removing element by poll() :");
 		Iterator<String> it2 = queue.iterator();
 		while (it2.hasNext()) {
 			System.out.println(it2.next());

@@ -25,16 +25,15 @@ public class UseOfQueue01 {
 		// Returns the number of elements in this collection
 		System.out.println("The number of elements in this Queue: " + queue.size());
 
-		// Specifically deal with the first Elemnt 
-		// Retrieves and remove,
+		// poll() method, Specifically deal with the first Element, then Retrieves and remove,
 		if (queue.peek().equalsIgnoreCase("sd")) {
-            System.out.println("The head of this queue retrieved: " + queue.poll());
+            System.out.println("The head of this queue retrieved and removed: " + queue.poll());
         }
 		//System.out.println(queue.poll());
 		
 		// Retrieves, but does not remove, the head of this queue, or returns null if
 		// this queue is empty.
-		System.out.println("The head of this queue retrieved: " + queue.peek());
+		System.out.println("The head of this queue retrieved and not removed: " + queue.peek());
 
 		/*
 		 * Inserts the specified element into this queue if it is possible to do so
@@ -42,8 +41,9 @@ public class UseOfQueue01 {
 		 * success and throwing an IllegalStateException if no space is currently
 		 * available.
 		 */
-		System.out.println("The value of this queue is added: " + queue.add("NM"));
+		System.out.println("The value of this queue is added: " + queue.add("NM")); // why boolean?
 		//need to know when it will be false, and need to know the capacity
+		
 		System.out.println(queue.contains("NM"));
 		System.out.println(queue);
 		
@@ -57,5 +57,6 @@ public class UseOfQueue01 {
 		// Retrieves, but does not remove, the head of this queue. This method differs
 		// from peek only in that it throws an exception if this queue is empty.
 		System.out.println("The head of this queue retrieved: " + queue.element()); // Why WA? got it?
+		System.out.println(queue);
 	}
 }

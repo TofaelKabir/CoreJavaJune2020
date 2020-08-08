@@ -10,6 +10,8 @@ public class UseOfLinkedList05 {
 		LinkedList ll = new LinkedList();
 		ll.add(345);
 		ll.add(483);
+		ll.add(483);
+		ll.add(483);
 		ll.add("Tofael");  // String used
 		ll.add(3.483);   // double used
 		ll.add('M');   //Char used
