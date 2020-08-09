@@ -11,16 +11,16 @@ public class UseOfStack04 {
         stack.add("OR");
         stack.add("CA"); //top
 
-        System.out.println("\n^^^^^^^^^^^^^ Printing all the element by for each loop (1) ^^^^^^^^^^^^^^^^ ");
+        System.out.println("\n------------ Printing all the element by for each loop (1) ------------");
         for (String string : stack) {
 			System.out.println(string);
 		}
-        System.out.println("\n^^^^^^^^^^^^^ Printing all the element by iterator (2) ^^^^^^^^^^^^^^^^ ");
-		Iterator iterator = stack.iterator();
+        System.out.println("\n------------ Printing all the element by iterator (2) ------------");
+		Iterator <String >iterator = stack.iterator();
         while(iterator.hasNext()){
             System.out.println(iterator.next());
         }
-        System.out.println("\n^^^^^^^^^^^^^ Printing all the element by While loop (3) ^^^^^^^^^^^^^^^^ ");
+        System.out.println("\n------------ Printing all the element by While loop (3) ------------");
         while(!stack.empty()){
         System.out.println(stack.pop());
     }

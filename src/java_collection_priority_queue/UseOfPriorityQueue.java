@@ -1,4 +1,4 @@
-package java_collection_queue;
+package java_collection_priority_queue;
 
 import java.util.Iterator;
 import java.util.PriorityQueue;

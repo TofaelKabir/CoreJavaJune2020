@@ -1,4 +1,4 @@
-package webelement;
+package webelement_search_by_dynamic_xpath;
 
 public class DynamicXPATH {
 	
