@@ -5,7 +5,8 @@ import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class InputOutput {
-    
+
+	// old system, no need
 	
   public static void main(String[] args) {
 	  int a = 23; //why we can't put the variables above main method?

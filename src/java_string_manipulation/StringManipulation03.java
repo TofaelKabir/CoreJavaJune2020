@@ -11,7 +11,7 @@ public class StringManipulation03 {
 		String s2 = "My name is Nawshad";
 		String s3 = "Monir";
 		String s4 = "monir";
-		String s5 = "  Hello World!  ";
+		
 
 		// To compare
 		System.out.println(s1.equals(s2)); // true (as both are same)
@@ -22,18 +22,19 @@ public class StringManipulation03 {
 		System.out.println(s3.equalsIgnoreCase(s4) + "\n");// true
 
 		// To print part of String: substring()
-		System.out.println(s1.substring(0, 5)); // from 0, before 5
+		System.out.println(s1.substring(0, 5)); // 0 is initialized block, 5 is conditional block <5
 		System.out.println(s1.substring(0, 4));
 		System.out.println(s1.substring(1, 5));
 		System.out.println(s1.substring(3, 12));
 
 		// To avoid white space: trim() (remove leading and trailing space, not from
 		// middle)
-		System.out.println("\nAfter trimming: " + s5.trim());
+		String s5 = "          Hello World!  ";
+		System.out.println("\nAfter trimming:" + s5.trim());
 
 		// To replace
-		System.out.println("After replacing but no trim: " + s5.replace('H', 'h'));
-		System.out.println("After replacing and trim: " + s5.trim().replace('!', ','));
+		System.out.println("After replacing but no trim:" + s5.replace('H', 'h'));
+		System.out.println("After replacing and trim:" + s5.trim().replace('!', ','));
 
 		String date = "02/14/2020";
 		System.out.println("After replacing the date: " + date.replace('/', '-'));
@@ -41,23 +42,23 @@ public class StringManipulation03 {
 		System.out.println("After replacing complete word: " + s5.replaceAll(s5, "Hey Hey captian!"));
 
 		// Concatenation : concat()
+		String s7 = "My name is Nawshad";
 		String s6 = " Amin";
-		System.out.println("\n" + s1.concat(s6));
+		System.out.println("\n" + s7.concat(s6));
+		
 		System.out.println(s3.concat(" Bhai"));
 
 		// we can also concat by using '+' operator
-		System.out.println(s1 + s6);
+		System.out.println(s7 + s6);
 		System.out.println("Lau" + " = " + "Kodu");
 
 		// use of split()
 		String line = "I am a java developer";
 
-		String[] words = line.split(" "); // what happen if the
-
-		String[] twoWords = line.split(" ", 3);
-
+		String[] words = line.split(" "); // converted to a List
 		System.out.println("\nString split with delimiter: " + Arrays.toString(words));
 
+		String[] twoWords = line.split(" ", 3);
 		System.out.println("String split into two: " + Arrays.toString(twoWords));
 
 		// split string delimited with special characters
@@ -73,6 +74,8 @@ public class StringManipulation03 {
 		for (int i = 0; i < ar.length; i++) {
 			System.out.println(ar[i]);
 		}
+		
+		System.out.println("\n-------------------------------------------");
 		String s8 = "Hello_Selenium_java_Jenkins";
         String array[]=s8.split("_");
         for(int i =0; i<array.length;i++){

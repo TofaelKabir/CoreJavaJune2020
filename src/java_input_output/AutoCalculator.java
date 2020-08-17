@@ -3,6 +3,8 @@ package java_input_output;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
+//Fun Game
+
 public class AutoCalculator {
 
 	public static void main(String[] args) {

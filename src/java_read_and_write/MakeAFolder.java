@@ -6,17 +6,19 @@ import java.io.FileReader;
 import java.util.Formatter;
 import java.util.Scanner;
 
+//Fun Game
+
 public class MakeAFolder {
 
 	public static void main(String[] args) throws FileNotFoundException {
 
 		File folder = new File("/Users/mohammadsharkar/Desktop/TofaelKabir");
-		folder.mkdir();
+		folder.mkdir(); //mkdir() -- create folder
 		if (folder.exists()) {
 			System.out.println(folder.getName() + " folder is created in Desktop");
 			File file = new File("/Users/mohammadsharkar/Desktop/TofaelKabir/MyInfo.text");
 			try {
-				file.createNewFile();
+				file.createNewFile(); // this method create the file
 			} catch (Exception e) {
 				System.out.println("the error is : " + e);
 			}
