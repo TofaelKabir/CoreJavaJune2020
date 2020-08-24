@@ -1,4 +1,4 @@
-package java_nested_class;
+package java_nested_class_1;
 
 public class JFK03 { // OPENING OF OUTER CLASS BODY
 	Terminal1 t1 = new Terminal1();

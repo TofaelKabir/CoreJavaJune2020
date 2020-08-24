@@ -1,6 +1,6 @@
-package java_nested_class;
+package java_nested_class_1;
 
-import java_nested_class.JFK03.Terminal4;
+import java_nested_class_1.JFK03.Terminal4;
 
 public class TestJFK {
 	public static void main(String[] args) {

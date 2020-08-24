@@ -1,4 +1,4 @@
-package java_nested_class;
+package java_nested_class_1;
 
 public class JFK02 { // Outer class
 	Terminal1 t1 = new Terminal1();
