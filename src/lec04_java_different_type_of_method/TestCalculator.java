@@ -1,6 +1,6 @@
 package lec04_java_different_type_of_method;
 
-public class testCalculator {
+public class TestCalculator {
 
 	public static void main(String[] args) {
 		System.out.println("\n-------------------------------------");
