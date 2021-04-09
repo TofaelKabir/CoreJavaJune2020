@@ -19,3 +19,7 @@ public class Use_of_java_for_each_loop {
 	}
 
 }
+
+// SEE MY INTERVIEW QUESTION FOR ANOTHER EXAMPLE
+// For each loop, which is used exclusively to loop through elements in an array
+
