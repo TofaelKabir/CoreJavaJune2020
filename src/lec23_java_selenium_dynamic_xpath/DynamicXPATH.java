@@ -6,10 +6,9 @@ public class DynamicXPATH {
 	
 /*
  
-Web site  contain web element
-web element -- every particle of a web page
-Front end -- What i see
-Back end -- 
+Website contain web element
+WebElement -- every particle of a web page
+UI -- User Interface, What we see as a user, UI is created with html, css, javascript etc
 HTML -- stands for Hyper Text Mark up Language
 CSS - Cascade styling sheet
 
