@@ -5,6 +5,7 @@ package lec22_java_coding_challenge_for_interview;
 
 public class FactorialNumber {
 
+	//mistake: forgot to create method
 	public static int recFactorial(int n) {
 		if (n == 0) {
 			return 1;
@@ -21,6 +22,7 @@ public class FactorialNumber {
         return total;
     }
 	
+	//if m=0, i<=0, so i=1, can't work, ask Nasir
 	public static int factorial(int m) {
 		int result = 1;
 		for (int i = 1; i <= m; i++) {
@@ -33,11 +35,13 @@ public class FactorialNumber {
 	public static void main(String[] args) {
 		System.out.println(recFactorial(5));
 		System.out.println(rFactorial(5));
-		System.out.println(factorial(4));
+		System.out.println(factorial(0));
 
 	}
 
 }
+
+
 
     
 

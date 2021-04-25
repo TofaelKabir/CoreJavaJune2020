@@ -10,14 +10,15 @@ public class StringManipulation03 {
 		String s1 = "My name is Nawshad";
 		String s2 = "My name is Nawshad";
 		String s3 = "Manir";
-		String s4 = "manir";
+		String s4 = "MANIR";
 		
 
 		// To compare
 		System.out.println(s1.equals(s2)); // true (as both are same)
 		System.out.println(s1.equals(s3)); // false (as both are not same)
 		System.out.println(s3.equals(s4)); // false (java is case sensitive)
-
+		System.out.println(s3.toUpperCase().equals(s4)); //TRUE
+		
 		// To ignore upper/lower case issues:
 		System.out.println(s3.equalsIgnoreCase(s4) + "\n");// true
 

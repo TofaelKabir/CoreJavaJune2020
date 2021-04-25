@@ -3,6 +3,7 @@ package lec22_java_coding_challenge_for_interview;
 import java.util.ArrayList;
 import java.util.List;
 
+//follow from previous code
 public class LowestNumber {
 	public static int findLowestNum(int[] array){
 		int min = array[0];

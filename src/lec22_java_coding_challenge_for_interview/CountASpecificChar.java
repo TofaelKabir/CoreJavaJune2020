@@ -3,19 +3,33 @@ package lec22_java_coding_challenge_for_interview;
 // Q: Count how many 'a' is present in the string "aabba'
 
 public class CountASpecificChar {
-	
 
 	public static void main(String[] args) {
-		String s = "aabbacdaaswaeiou";
+		String s = "Aabbacdaaswaeiou";
+		
+// mistake: count is int type.		
 		int count = 0;
-//mistake happen in if condition
+// mistake happen in if condition
 		for (int i = 0; i < s.length(); i++) {
-			if (s.charAt(i) == 'a' || s.charAt(i) == 'e' || s.charAt(i) == 'o' || s.charAt(i) == 'i'
-					|| s.charAt(i) == 'u') {
+// mistake: forgot single quotation 'w'			
+			if (s.toLowerCase().charAt(i) == 'a') {
 				count++;
 			}
 		}
+// Mistake: below println outside for loop
 		System.out.println(count);
+
+		System.out.println("\n------------------------ Changed all the charcaters to lowercase and find a ---------------------------\n");
+		
+		String s1 = "Aabbacdaaswaeiou";
+		// mistake: count is int type.		
+				int count1 = 0;
+		for (int i = 0; i < s1.length(); i++) {
+			if (Character.toLowerCase(s1.charAt(i)) == 'a') {
+				count1++;
+			}
+		}
+		System.out.println(count1);
 
 	}
 

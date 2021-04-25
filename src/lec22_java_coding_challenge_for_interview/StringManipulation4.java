@@ -18,6 +18,11 @@ public class StringManipulation4 {
 
         String DOB = "01/28/1987";
         System.out.println(DOB.replace("/","-"));
+        
+//        How to remove junk
+        String s9 = "*&^%$java";
+        s1 = s1.replaceAll("[^a-zA-Z0-9]","");
+        System.out.println(s9);
 
         String s4 = "Hello_Selenium_java_Jenkins";
         String array[]=s4.split("_");

@@ -1,5 +1,9 @@
 package lec17_1_java_collection_array;
 
+import java.util.Iterator;
+
+import lec13_4_java_access_modifiers_protected.E;
+
 /*
  * Author: Shohag, Organised by: Tofael
  */
@@ -31,6 +35,7 @@ public class UseOfArray05 {
 		for (int i = 0; i < a.length; i++) {
 			System.out.println(a[i]);
 		}
-
+		
+		
 	}
 }
