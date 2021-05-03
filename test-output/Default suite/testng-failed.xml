@@ -3,7 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="lec23_java_selenium.DoubleClickAction"/>
+      <class name="lec23_java_selenium.z_SwitchMethods_Windows">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- lec23_java_selenium.z_SwitchMethods_Windows -->
     </classes>
   </test> <!-- Default test -->
 </suite> <!-- Failed suite [Default suite] -->

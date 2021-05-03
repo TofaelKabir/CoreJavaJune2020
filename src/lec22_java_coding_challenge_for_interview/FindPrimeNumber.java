@@ -66,7 +66,7 @@ public class FindPrimeNumber {
         System.out.println("The number 2 is prime number or not ? " + isPrimeNumber(2));
         System.out.println("The number 13 is prime number or not ? " + isPrimeNumber(13));
 
-        findPrimeNumber(3);
+        findPrimeNumber(33);
 
     }
 }

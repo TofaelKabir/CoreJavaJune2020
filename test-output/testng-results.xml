@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7860" started-at="2021-04-16T21:48:26Z" finished-at="2021-04-16T21:48:34Z">
+  <suite name="Default suite" duration-ms="6354" started-at="2021-05-01T20:36:10Z" finished-at="2021-05-01T20:36:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7860" started-at="2021-04-16T21:48:26Z" finished-at="2021-04-16T21:48:34Z">
-      <class name="lec23_java_selenium.DoubleClickAction">
-        <test-method status="PASS" signature="test()[pri:0, instance:lec23_java_selenium.DoubleClickAction@5ae9a829]" name="test" duration-ms="7795" started-at="2021-04-16T17:48:26Z" finished-at="2021-04-16T17:48:34Z">
+    <test name="Default test" duration-ms="6354" started-at="2021-05-01T20:36:10Z" finished-at="2021-05-01T20:36:16Z">
+      <class name="lec23_java_selenium.z_SwitchMethods_Windows">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:lec23_java_selenium.z_SwitchMethods_Windows@56f4468b]" name="setUp" is-config="true" duration-ms="6191" started-at="2021-05-01T16:36:10Z" finished-at="2021-05-01T16:36:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- lec23_java_selenium.DoubleClickAction -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:lec23_java_selenium.z_SwitchMethods_Windows@56f4468b]" name="tearDown" is-config="true" duration-ms="153" started-at="2021-05-01T16:36:16Z" finished-at="2021-05-01T16:36:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lec23_java_selenium.z_SwitchMethods_Windows -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

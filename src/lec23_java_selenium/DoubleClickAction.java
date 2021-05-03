@@ -18,6 +18,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
+import org.testng.reporters.jq.Main;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -41,6 +42,9 @@ public class DoubleClickAction {
 		System.out.println("\nAlert Text:" +alert.getText());
 		alert.accept();
 		driver.quit();
+		
+		
+		
 	
 	}
 
