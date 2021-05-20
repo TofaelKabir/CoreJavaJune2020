@@ -15,8 +15,6 @@ public class CharacterOneByOneVerticalAndReverse {
 			System.out.println(s.charAt(i));
 		}
 		
-		
-
 	}
 
 }

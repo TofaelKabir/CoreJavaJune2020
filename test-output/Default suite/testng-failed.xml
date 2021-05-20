@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="lec23_java_selenium.z_SwitchMethods_Windows">
-        <methods>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- lec23_java_selenium.z_SwitchMethods_Windows -->
+      <class name="lec23_java_selenium.C01_FindElementVsFindElements"/>
     </classes>
   </test> <!-- Default test -->
 </suite> <!-- Failed suite [Default suite] -->

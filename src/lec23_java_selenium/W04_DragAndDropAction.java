@@ -14,11 +14,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class DragAndDropAction {
-	public static void main(String[] args) throws InterruptedException {
+public class W04_DragAndDropAction {
+	@Test
+	public void dragAndDropAction() throws InterruptedException {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -35,7 +37,7 @@ public class DragAndDropAction {
 
 		// Dragged and dropped.
 		actions.dragAndDrop(sourceLocator, targetLocator).build().perform();
-		Thread.sleep(10000);
+		Thread.sleep(2000);
 		driver.quit();
 
 	}

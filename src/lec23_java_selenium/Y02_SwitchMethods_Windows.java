@@ -10,7 +10,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class z_SwitchMethods_Windows {
+public class Y02_SwitchMethods_Windows {
 	WebDriver driver;
 
 	@BeforeTest
@@ -54,3 +54,5 @@ public class z_SwitchMethods_Windows {
 		}
 	}
 }
+
+// all switch to method ke ekshathe rakhte hobe

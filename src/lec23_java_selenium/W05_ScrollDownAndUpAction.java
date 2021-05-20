@@ -19,9 +19,9 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class ScrollDownAndUpAction {
+public class W05_ScrollDownAndUpAction {
 	@Test
-	public void test() throws InterruptedException {
+	public void scrollDownAndUpAction() throws InterruptedException {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();

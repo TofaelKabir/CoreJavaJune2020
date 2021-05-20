@@ -1,6 +1,7 @@
 package lec22_java_coding_challenge_for_interview;
 
-// Q: Count how many 'a' is present in the string "aabba'
+// Q: Count how many 'a' is present in the string "Aabbacdaaswaeiou" regardless of upper case of lower case?
+
 
 public class CountASpecificChar {
 
@@ -19,6 +20,15 @@ public class CountASpecificChar {
 // Mistake: below println outside for loop
 		System.out.println(count);
 
+		
+		
+		
+		
+		
+		
+		
+//		Another way
+		
 		System.out.println("\n------------------------ Changed all the charcaters to lowercase and find a ---------------------------\n");
 		
 		String s1 = "Aabbacdaaswaeiou";

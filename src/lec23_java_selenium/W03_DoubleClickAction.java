@@ -22,9 +22,9 @@ import org.testng.reporters.jq.Main;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class DoubleClickAction {
-	@Test
-	public void test () throws InterruptedException {
+public class W03_DoubleClickAction {
+	@Test	
+	public void doubleClickAction() throws InterruptedException {
 		// one way
 		//WebDriverManager.chromedriver().setup();
 		//2nd way
@@ -39,7 +39,7 @@ public class DoubleClickAction {
 		actions.doubleClick(dc).build().perform();
 		//Switch to the alert box and click on OK button
 		Alert alert = driver.switchTo().alert();
-		System.out.println("\nAlert Text:" +alert.getText());
+		System.out.println("\nAlert Text:>>> " +alert.getText());
 		alert.accept();
 		driver.quit();
 		

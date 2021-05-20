@@ -11,13 +11,19 @@ public class DuplicateOrMoreThanOneElement {
         // mistake happen in length
         for(int i= 0;i< name.length;i++ ){
             for(int j =i+1; j< name.length; j++){
-//            	mistake: name[i].equals(name[j])
+        // mistake: name[i].equals(name[j])
                 if(name[i].equals(name[j])){
                     System.out.println("The duplicate element is :" + name[i]);
                 }
             }
         }
-        System.out.println("***********************");
+        
+        
+        
+        
+        
+        
+        System.out.println("*********** Another way ************");       
         // 2. use HashSet, HashSet only take the unique value
         Set<String>  store = new HashSet<String>();
         for(String names : name){

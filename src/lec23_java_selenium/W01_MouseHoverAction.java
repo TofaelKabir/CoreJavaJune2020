@@ -19,19 +19,21 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class MouseHoverAction {
-	public static void main(String[] args) throws InterruptedException {
+public class W01_MouseHoverAction {
+	@Test
+	public void mouseHoverAction() throws InterruptedException {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.mountsinai.org/");
-		Actions builder = new Actions(driver);
+		Actions actions = new Actions(driver);
 		WebElement aboutUs = driver.findElement(By.xpath("//a[@class='hidden-xs dropdown' and contains(text(),'About Us')]"));
 		Thread.sleep(2000);
-		builder.moveToElement(aboutUs).build().perform();
+		actions.moveToElement(aboutUs).build().perform();
 		Thread.sleep(2000);
 		System.out.println("\nThe text of this web element is: "+ aboutUs.getText());
 		driver.quit();

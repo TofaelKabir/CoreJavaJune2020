@@ -8,7 +8,7 @@ public class LargestAndSmallest {
         // we have to initialize smallest and largest first
         int largest = array[0];
         int smallest = array[0];
-        for(int i =1;i < array.length;i++){
+        for(int i =1; i < array.length;i++){
             if(array[i]> largest){
                 largest= array[i];
             }

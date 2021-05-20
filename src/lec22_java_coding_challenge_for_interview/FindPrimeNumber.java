@@ -35,21 +35,22 @@ Two has 2 natural number divisors - 1 and 2:
  * */
 
 public class FindPrimeNumber {
-
+//Prime number is a positive natural number that has only two positive natural number divisors - one and the number itself.
     // create a method to find out a specific number is prime number or not
-    public static boolean isPrimeNumber(int num){
-    	if(num <= 1){
+    public static boolean isPrimeNumber(int n){
+    	if(n <= 1){
             return false;
         }
-        for(int i = 2; i<num ; i++){
-            if(num % i== 0){
+        for(int i = 2; i<n ; i++){
+            if(n % i== 0){
                 return false;
             }
         }
         return true;
     }
+   
+    
     // if we want to find out there is a range of number is there have prime number or not
-
     public static void findPrimeNumber(int number){
         for(int i= 0; i<= number; i ++){
             if(isPrimeNumber(i)){ //mistake in this line

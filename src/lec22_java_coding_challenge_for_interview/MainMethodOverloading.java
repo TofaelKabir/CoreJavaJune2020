@@ -5,7 +5,7 @@ package lec22_java_coding_challenge_for_interview;
 public class MainMethodOverloading {
 	public static void main(String[] args) {
 		System.out.println("Method-1");
-		//The blow 3 main methods are called inside the main method with argumens recognized by the JVM
+		//The blow 3 main methods are called inside the main method with arguments recognized by the JVM
 		// This methods can't be call without calling them inside main method
 		//Main method can be overloaded but JVM can recognized only the signature of this main method
 		main(12);

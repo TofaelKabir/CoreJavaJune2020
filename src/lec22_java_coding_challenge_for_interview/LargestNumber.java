@@ -19,3 +19,6 @@ public class LargestNumber {
     }
 }
 
+//how to find the second largest number?
+// or second smallest number?
+
